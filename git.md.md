@@ -21,7 +21,7 @@
 - git commit --amend -m "message" **This command is used to change the last commit beacuse last commit is not depend on any other commit.**
 - git checkout SHA-1 -- filename **commit->staging->changeFile  checkout with previous version. If your code is not running some reason but you know that before some day it was running and now you want to change the current file with that day of file. Then use this command.**
 
-- git reset --soft
+- git reset --soft **Remove the files or file from the commit.**
 - git reset --mixed
 - git reset --hard
 - git reset HEAD~1
@@ -32,6 +32,7 @@
 
 - git branch **To check all the branches.**
 - git branch branchName **To create new branch.**
+- git checkout branchname **To change the branch**
 or 
 - git checkout -b branchName **It will create a new branch and switch to it.**
 
